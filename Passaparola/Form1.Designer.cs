@@ -257,6 +257,7 @@
 			this.button22.TabIndex = 21;
 			this.button22.Text = "Y";
 			this.button22.UseVisualStyleBackColor = true;
+			this.button22.Click += new System.EventHandler(this.button22_Click);
 			// 
 			// button23
 			// 
@@ -283,7 +284,6 @@
 			this.button25.Size = new System.Drawing.Size(328, 309);
 			this.button25.TabIndex = 24;
 			this.button25.UseVisualStyleBackColor = true;
-			//this.button25.Click += new System.EventHandler(this.button25_Click);
 			// 
 			// richTextBox1
 			// 
